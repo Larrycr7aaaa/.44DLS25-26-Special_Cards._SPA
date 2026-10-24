@@ -1,0 +1,894 @@
+{
+  "playlist": [
+    { "title": "Good Feeling", "file": "./sound 1 dls.mp3" },
+    { "title": "Supernatural", "file": "./sound 2 dls.mp3" },
+    { "title": "Fale Então", "file": "./sound 3 dls.mp3" },
+    { "title": "7 Son", "file": "./sound 4 dls.mp3" }
+  ],
+  "players": [
+    {
+      "id": "arda-guler-2026-dynamic-stars",
+      "name": "Arda Güler",
+      "image": "./guler.jpg",
+      "rating": 96,
+      "position": "MCO",
+      "country": {
+        "name": "Turquía",
+        "flag": "🇹🇷"
+      },
+      "team": "Selección de Turquía",
+      "cardType": "Dynamic Stars",
+      "year": 2026,
+      "heightCm": 175,
+      "preferredFoot": "left",
+      "stats": {
+        "physical": { "speed": 95, "acceleration": 100, "stamina": 100, "strength": 79 },
+        "technical": { "control": 100, "passing": 100, "shooting": 92, "tackling": 68 }
+      }
+    },
+    {
+      "id": "eberechi-eze-2026-dynamic-stars",
+      "name": "Eberechi Eze",
+      "image": "./ee.jpg",
+      "rating": 96,
+      "position": "MCO",
+      "country": {
+        "name": "Inglaterra",
+        "flag": "🇬🇧"
+      },
+      "team": "Selección de Inglaterra",
+      "cardType": "Dynamic Stars",
+      "year": 2026,
+      "heightCm": 178,
+      "preferredFoot": "right",
+      "stats": {
+        "physical": { "speed": 95, "acceleration": 100, "stamina": 93, "strength": 81 },
+        "technical": { "control": 100, "passing": 100, "shooting": 95, "tackling": 67 }
+      }
+    },
+    {
+      "id": "rodrigo-de-paul-2026-dynamic-stars",
+      "name": "Rodrigo De Paul",
+      "image": "./rdp.jpg",
+      "rating": 96,
+      "position": "MC",
+      "country": {
+        "name": "Argentina",
+        "flag": "🇦🇷"
+      },
+      "team": "Selección de Argentina",
+      "cardType": "Dynamic Stars",
+      "year": 2026,
+      "heightCm": 180,
+      "preferredFoot": "right",
+      "stats": {
+        "physical": { "speed": 91, "acceleration": 88, "stamina": 100, "strength": 84 },
+        "technical": { "control": 98, "passing": 100, "shooting": 81, "tackling": 92 }
+      }
+    },
+    {
+      "id": "richard-rios-2026-dynamic-stars",
+      "name": "Richard Ríos",
+      "image": "./rr.jpg",
+      "rating": 96,
+      "position": "MCD",
+      "country": {
+        "name": "Colombia",
+        "flag": "🇨🇴"
+      },
+      "team": "Selección de Colombia",
+      "cardType": "Dynamic Stars",
+      "year": 2026,
+      "heightCm": 187,
+      "preferredFoot": "right",
+      "stats": {
+        "physical": { "speed": 92, "acceleration": 92, "stamina": 100, "strength": 87 },
+        "technical": { "control": 99, "passing": 99, "shooting": 71, "tackling": 91 }
+      }
+    },
+    {
+      "id": "weston-mckennie-2026-dynamic-stars",
+      "name": "Weston McKennie",
+      "image": "./mc kennie.jpeg",
+      "rating": 96,
+      "position": "MC",
+      "country": {
+        "name": "EE.UU.",
+        "flag": "🇺🇸"
+      },
+      "team": "Selección de Estados Unidos",
+      "cardType": "Dynamic Stars",
+      "year": 2026,
+      "heightCm": 185,
+      "preferredFoot": "right",
+      "stats": {
+        "physical": { "speed": 94, "acceleration": 87, "stamina": 100, "strength": 90 },
+        "technical": { "control": 93, "passing": 97, "shooting": 80, "tackling": 95 }
+      }
+    },
+    {
+      "id": "nico-williams-2026-dynamic-stars",
+      "name": "Nico Williams",
+      "image": "./nw.jpg",
+      "rating": 96,
+      "position": "EI",
+      "country": {
+        "name": "España",
+        "flag": "🇪🇸"
+      },
+      "team": "Selección de España",
+      "cardType": "Dynamic Stars",
+      "year": 2026,
+      "heightCm": 181,
+      "preferredFoot": "right",
+      "stats": {
+        "physical": { "speed": 100, "acceleration": 100, "stamina": 100, "strength": 79 },
+        "technical": { "control": 100, "passing": 100, "shooting": 100, "tackling": 51 }
+      }
+    },
+    {
+      "id": "ousmane-dembele-2025-team-of-2025",
+      "name": "Ousmane Dembélé",
+      "image": "./dembele.jpg",
+      "rating": 97,
+      "position": "ED",
+      "country": {
+        "name": "Francia",
+        "flag": "🇫🇷"
+      },
+      "team": "Paris Saint-Germain",
+      "cardType": "Team of 2025",
+      "year": 2025,
+      "heightCm": 178,
+      "preferredFoot": "both",
+      "stats": {
+        "physical": { "speed": 100, "acceleration": 100, "stamina": 100, "strength": 79 },
+        "technical": { "control": 100, "passing": 100, "shooting": 100, "tackling": 46 }
+      }
+    },
+    {
+      "id": "kylian-mbappe-2025-team-of-2025",
+      "name": "Kylian Mbappé",
+      "image": "./mbappe.jpg",
+      "rating": 97,
+      "position": "DC",
+      "country": {
+        "name": "Francia",
+        "flag": "🇫🇷"
+      },
+      "team": "Real Madrid",
+      "cardType": "Team of 2025",
+      "year": 2025,
+      "heightCm": 178,
+      "preferredFoot": "right",
+      "stats": {
+        "physical": { "speed": 100, "acceleration": 100, "stamina": 100, "strength": 97 },
+        "technical": { "control": 100, "passing": 100, "shooting": 100, "tackling": 32 }
+      }
+    },
+    {
+      "id": "harry-kane-2025-team-of-2025",
+      "name": "Harry Kane",
+      "image": "./kane.jpg",
+      "rating": 97,
+      "position": "DC",
+      "country": {
+        "name": "Inglaterra",
+        "flag": "🇬🇧"
+      },
+      "team": "Bayern Múnich",
+      "cardType": "Team of 2025",
+      "year": 2025,
+      "heightCm": 188,
+      "preferredFoot": "right",
+      "stats": {
+        "physical": { "speed": 92, "acceleration": 93, "stamina": 100, "strength": 100 },
+        "technical": { "control": 100, "passing": 100, "shooting": 100, "tackling": 56 }
+      }
+    },
+    {
+      "id": "pedri-2025-team-of-2025",
+      "name": "Pedri",
+      "image": "./pedri.jpeg",
+      "rating": 96,
+      "position": "MC",
+      "country": {
+        "name": "España",
+        "flag": "🇪🇸"
+      },
+      "team": "FC Barcelona",
+      "cardType": "Team of 2025",
+      "year": 2025,
+      "heightCm": 174,
+      "preferredFoot": "right",
+      "stats": {
+        "physical": { "speed": 89, "acceleration": 90, "stamina": 100, "strength": 80 },
+        "technical": { "control": 100, "passing": 100, "shooting": 90, "tackling": 80 }
+      }
+    },
+    {
+      "id": "joao-pedro-2026-nuevas-especiales",
+      "name": "João Pedro",
+      "image": "./j.pedro.jpg",
+      "rating": 93,
+      "position": "DC",
+      "country": {
+        "name": "Brasil",
+        "flag": "🇧🇷"
+      },
+      "team": "Chelsea",
+      "cardType": "Season Pass",
+      "year": 2026,
+      "heightCm": 182,
+      "preferredFoot": "right",
+      "stats": {
+        "physical": { "speed": 98, "acceleration": 96, "stamina": 100, "strength": 88 },
+        "technical": { "control": 93, "passing": 91, "shooting": 98, "tackling": 29 }
+      }
+    },
+    {
+      "id": "kevin-de-bruyne-2018-wc-heroes",
+      "name": "Kevin De Bruyne",
+      "image": "./de bruyne.jpg",
+      "rating": 96,
+      "position": "MCO",
+      "country": {
+        "name": "Bélgica",
+        "flag": "🇧🇪"
+      },
+      "team": "Selección de Bélgica",
+      "cardType": "WC Heroes",
+      "year": 2018,
+      "heightCm": 181,
+      "preferredFoot": "right",
+      "stats": {
+        "physical": { "speed": 100, "acceleration": 100, "stamina": 100, "strength": 77 },
+        "technical": { "control": 100, "passing": 100, "shooting": 100, "tackling": 54 }
+      }
+    },
+    {
+      "id": "luka-modric-2018-champions",
+      "name": "Luka Modrić",
+      "image": "./modric.jpeg",
+      "rating": 96,
+      "position": "MC",
+      "country": {
+        "name": "Croacia",
+        "flag": "🇭🇷"
+      },
+      "team": "Selección de Croacia",
+      "cardType": "Champions",
+      "year": 2018,
+      "heightCm": 172,
+      "preferredFoot": "both",
+      "stats": {
+        "physical": { "speed": 100, "acceleration": 100, "stamina": 100, "strength": 73 },
+        "technical": { "control": 100, "passing": 100, "shooting": 100, "tackling": 62 }
+      }
+    },
+    {
+      "id": "keylor-navas-2014-wc-heroes",
+      "name": "Keylor Navas",
+      "image": "./k.navas.jpeg",
+      "rating": 95,
+      "position": "GK",
+      "country": {
+        "name": "Costa Rica",
+        "flag": "🇨🇷"
+      },
+      "team": "Selección de Costa Rica",
+      "cardType": "WC Heroes",
+      "year": 2014,
+      "heightCm": 185,
+      "preferredFoot": "right",
+      "stats": {
+        "physical": { "speed": 77, "acceleration": 69, "strength": 74 },
+        "technical": { "control": 62, "passing": 60, "tackling": 80 },
+        "goalkeeping": { "reflexes": 100, "handling": 85 }
+      }
+    },
+    {
+      "id": "angel-di-maria-2014-champions",
+      "name": "Ángel Di María",
+      "image": "./di maria.jpeg",
+      "rating": 95,
+      "position": "ED",
+      "country": {
+        "name": "Argentina",
+        "flag": "🇦🇷"
+      },
+      "team": "Selección de Argentina",
+      "cardType": "Champions",
+      "year": 2014,
+      "heightCm": 178,
+      "preferredFoot": "left",
+      "stats": {
+        "physical": { "speed": 100, "acceleration": 100, "stamina": 100, "strength": 75 },
+        "technical": { "control": 100, "passing": 100, "shooting": 100, "tackling": 54 }
+      }
+    },
+    {
+      "id": "ngolo-kante-2016-champions",
+      "name": "N'Golo Kanté",
+      "image": "./kante.png",
+      "rating": 95,
+      "position": "MCD",
+      "country": {
+        "name": "Francia",
+        "flag": "🇫🇷"
+      },
+      "team": "Leicester City",
+      "cardType": "Champions",
+      "year": 2016,
+      "heightCm": 168,
+      "preferredFoot": "right",
+      "stats": {
+        "physical": { "speed": 99, "acceleration": 99, "stamina": 100, "strength": 90 },
+        "technical": { "control": 90, "passing": 90, "shooting": 83, "tackling": 100 }
+      }
+    },
+    {
+      "id": "james-rodriguez-2014-wc-heroes",
+      "name": "James Rodríguez",
+      "image": "./james.png",
+      "rating": 98,
+      "position": "MCO",
+      "country": {
+        "name": "Colombia",
+        "flag": "🇨🇴"
+      },
+      "team": "Selección de Colombia",
+      "cardType": "WC Heroes",
+      "year": 2014,
+      "heightCm": 180,
+      "preferredFoot": "left",
+      "stats": {
+        "physical": { "speed": 100, "acceleration": 100, "stamina": 100, "strength": 95 },
+        "technical": { "control": 100, "passing": 100, "shooting": 100, "tackling": 50 }
+      }
+    },
+    {
+      "id": "fabio-cannavaro-2006-legends",
+      "name": "Fabio Cannavaro",
+      "image": "./cannavaro.jpg",
+      "rating": 98,
+      "position": "DFC",
+      "country": {
+        "name": "Italia",
+        "flag": "🇮🇹"
+      },
+      "team": "Selección de Italia",
+      "cardType": "Legends",
+      "year": 2006,
+      "heightCm": 176,
+      "preferredFoot": "right",
+      "stats": {
+        "physical": { "speed": 100, "acceleration": 100, "stamina": 100, "strength": 100 },
+        "technical": { "control": 93, "passing": 95, "shooting": 73, "tackling": 100 }
+      }
+    },
+    {
+      "id": "rivaldo-1999-legends",
+      "name": "Rivaldo",
+      "image": "./rivaldo.jpg",
+      "rating": 98,
+      "position": "EI",
+      "country": {
+        "name": "Brasil",
+        "flag": "🇧🇷"
+      },
+      "team": "FC Barcelona",
+      "cardType": "Legends",
+      "year": 1999,
+      "heightCm": 186,
+      "preferredFoot": "left",
+      "stats": {
+        "physical": { "speed": 100, "acceleration": 100, "stamina": 100, "strength": 96 },
+        "technical": { "control": 100, "passing": 100, "shooting": 100, "tackling": 42 }
+      }
+    },
+    {
+      "id": "carlos-valderrama-1993-legends",
+      "name": "Carlos Valderrama",
+      "image": "./el pibe.jpg",
+      "rating": 96,
+      "position": "MCO",
+      "country": {
+        "name": "Colombia",
+        "flag": "🇨🇴"
+      },
+      "team": "Selección de Colombia",
+      "cardType": "Legends",
+      "year": 1993,
+      "heightCm": 177,
+      "preferredFoot": "right",
+      "stats": {
+        "physical": { "speed": 95, "acceleration": 96, "stamina": 100, "strength": 89 },
+        "technical": { "control": 100, "passing": 99, "shooting": 93, "tackling": 60 }
+      }
+    },
+    {
+      "id": "lionel-messi-2012-champions",
+      "name": "Lionel Messi",
+      "image": "./messi2012.jpg",
+      "rating": 98,
+      "position": "ED",
+      "country": {
+        "name": "Argentina",
+        "flag": "🇦🇷"
+      },
+      "team": "FC Barcelona",
+      "cardType": "Champions",
+      "year": 2012,
+      "heightCm": 170,
+      "preferredFoot": "left",
+      "stats": {
+        "physical": { "speed": 100, "acceleration": 100, "stamina": 100, "strength": 99 },
+        "technical": { "control": 100, "passing": 100, "shooting": 100, "tackling": 50 }
+      }
+    },
+    {
+      "id": "neymar-jr-2015-champions",
+      "name": "Neymar Da Silva Santos Jr",
+      "image": "./neymr.jpg",
+      "rating": 95,
+      "position": "EI",
+      "country": {
+        "name": "Brazil",
+        "flag": "🇧🇷"
+      },
+      "team": "FC Barcelona",
+      "cardType": "Champions",
+      "year": 2014,
+      "heightCm": 178,
+      "preferredFoot": "left",
+      "stats": {
+        "physical": { "speed": 100, "acceleration": 100, "stamina": 100, "strength": 75 },
+        "technical": { "control": 100, "passing": 100, "shooting": 100, "tackling": 54 }
+      }
+    },
+    {
+      "id": "cristiano-ronaldo-2014-champions",
+      "name": "Cristiano Ronaldo",
+      "image": "./cr17.jpg",
+      "rating": 98,
+      "position": "EI",
+      "country": {
+        "name": "Portugal",
+        "flag": "🇵🇹"
+      },
+      "team": "Real Madrid",
+      "cardType": "Champions",
+      "year": 2014,
+      "heightCm": 187,
+      "preferredFoot": "both",
+      "stats": {
+        "physical": { "speed": 100, "acceleration": 100, "stamina": 100, "strength": 100 },
+        "technical": { "control": 100, "passing": 100, "shooting": 100, "tackling": 66 }
+      }
+    },
+    {
+      "id": "cristiano-ronaldo-2018-wc-heroes",
+      "name": "Cristiano Ronaldo",
+      "image": "./cr18.jpg",
+      "rating": 97,
+      "position": "DC",
+      "country": {
+        "name": "Portugal",
+        "flag": "🇵🇹"
+      },
+      "team": "Selección de Portugal",
+      "cardType": "WC Heroes",
+      "year": 2018,
+      "heightCm": 187,
+      "preferredFoot": "both",
+      "stats": {
+        "physical": { "speed": 100, "acceleration": 100, "stamina": 100, "strength": 100 },
+        "technical": { "control": 100, "passing": 100, "shooting": 100, "tackling": 61 }
+      }
+    },
+    {
+      "id": "tim-payne-2026-hidden",
+      "name": "Tim Payne",
+      "image": "./payne.jpg",
+      "rating": 88,
+      "position": "LD",
+      "country": {
+        "name": "Nueva Zelanda",
+        "flag": "🇳🇿"
+      },
+      "team": "Selección de Nueva Zelanda",
+      "cardType": "HIDDEN",
+      "year": 2026,
+      "heightCm": 179,
+      "preferredFoot": "both",
+      "stats": { 
+        "physical": { "speed": 70, "acceleration": 80, "stamina": 100, "strength": 88 },
+        "technical": { "control": 80, "passing": 90, "shooting": 78, "tackling": 91 }
+      }
+    },
+    {
+      "id": "luis-suarez-2026-dream-stars",
+      "name": "Luis Suárez",
+      "image": "./suarez.jpg",
+      "rating": 94,
+      "position": "DC",
+      "country": {
+        "name": "Colombia",
+        "flag": "🇨🇴"
+      },
+      "team": "Sporting CP",
+      "cardType": "Dream Stars",
+      "year": 2026,
+      "heightCm": 181,
+      "preferredFoot": "right",
+      "stats": {
+        "physical": { "speed": 100, "acceleration": 100, "stamina": 96, "strength": 97 },
+        "technical": { "control": 98, "passing": 82, "shooting": 100, "tackling": 33 }
+      }
+    },
+    {
+      "id": "kenan-yildiz-2026-dream-stars",
+      "name": "Kenan Yildiz",
+      "image": "./yildiz.jpg",
+      "rating": 95,
+      "position": "SD",
+      "country": {
+        "name": "Turquía",
+        "flag": "🇹🇷"
+      },
+      "team": "Juventus",
+      "cardType": "Dream Stars",
+      "year": 2026,
+      "heightCm": 187,
+      "preferredFoot": "both",
+      "stats": {
+        "physical": { "speed": 100, "acceleration": 100, "stamina": 100, "strength": 86 },
+        "technical": { "control": 100, "passing": 100, "shooting": 100, "tackling": 34 }
+      }
+    },
+    {
+      "id": "patrick-berg-2026-dream-stars",
+      "name": "Patrick Berg",
+      "image": "./berg.jpeg",
+      "rating": 95,
+      "position": "MCD",
+      "country": {
+        "name": "Noruega",
+        "flag": "🇳🇴"
+      },
+      "team": "Bodø/Glimt",
+      "cardType": "Dream Stars",
+      "year": 2026,
+      "heightCm": 178,
+      "preferredFoot": "right",
+      "stats": {
+        "physical": { "speed": 90, "acceleration": 90, "stamina": 100, "strength": 84 },
+        "technical": { "control": 99, "passing": 100, "shooting": 87, "tackling": 100 }
+      }
+    },
+    {
+      "id": "julian-ryerson-2026-dream-stars",
+      "name": "Julian Ryerson",
+      "image": "./ryerson.jpeg",
+      "rating": 95,
+      "position": "LD",
+      "country": {
+        "name": "Noruega",
+        "flag": "🇳🇴"
+      },
+      "team": "Borussia Dortmund",
+      "cardType": "Dream Stars",
+      "year": 2026,
+      "heightCm": 183,
+      "preferredFoot": "right",
+      "stats": {
+        "physical": { "speed": 100, "acceleration": 100, "stamina": 100, "strength": 82 },
+        "technical": { "control": 80, "passing": 100, "shooting": 81, "tackling": 100 }
+      }
+    },
+    {
+      "id": "nicolas-otamendi-2018-cult-heroes",
+      "name": "Nicolás Otamendi",
+      "image": "./otamendi.jpg",
+      "rating": 94,
+      "position": "DFC",
+      "country": {
+        "name": "Argentina",
+        "flag": "🇦🇷"
+      },
+      "team": "Manchester City",
+      "cardType": "Cult Heroes",
+      "year": 2018,
+      "heightCm": 183,
+      "preferredFoot": "right",
+      "stats": {
+        "physical": { "speed": 97, "acceleration": 97, "stamina": 100, "strength": 100 },
+        "technical": { "control": 85, "passing": 89, "shooting": 70, "tackling": 100 }
+      }
+    },
+    {
+      "id": "pierre-emerick-aubameyang-2017-cult-heroes",
+      "name": "Pierre-Emerick Aubameyang",
+      "image": "./aubameyang.jpg",
+      "rating": 95,
+      "position": "DC",
+      "country": {
+        "name": "Gabón",
+        "flag": "🇬🇦"
+      },
+      "team": "Borussia Dortmund",
+      "cardType": "Cult Heroes",
+      "year": 2017,
+      "heightCm": 187,
+      "preferredFoot": "right",
+      "stats": {
+        "physical": { "speed": 100, "acceleration": 100, "stamina": 100, "strength": 100 },
+        "technical": { "control": 99, "passing": 100, "shooting": 100, "tackling": 37 }
+      }
+    },
+    {
+      "id": "isco-2017-cult-heroes",
+      "name": "Isco",
+      "image": "./isco.jpg",
+      "rating": 94,
+      "position": "MCO",
+      "country": {
+        "name": "España",
+        "flag": "🇪🇸"
+      },
+      "team": "Real Madrid",
+      "cardType": "Cult Heroes",
+      "year": 2017,
+      "heightCm": 176,
+      "preferredFoot": "right",
+      "stats": {
+        "physical": { "speed": 100, "acceleration": 100, "stamina": 97, "strength": 85 },
+        "technical": { "control": 100, "passing": 96, "shooting": 98, "tackling": 43 }
+      }
+    },
+    {
+      "id": "paulo-dybala-2020-cult-heroes",
+      "name": "Paulo Dybala",
+      "image": "./dybala.jpeg",
+      "rating": 95,
+      "position": "SD",
+      "country": {
+        "name": "Argentina",
+        "flag": "🇦🇷"
+      },
+      "team": "Juventus",
+      "cardType": "Cult Heroes",
+      "year": 2020,
+      "heightCm": 177,
+      "preferredFoot": "left",
+      "stats": {
+        "physical": { "speed": 100, "acceleration": 100, "stamina": 100, "strength": 73 },
+        "technical": { "control": 100, "passing": 100, "shooting": 100, "tackling": 50 }
+      }
+    },
+    {
+      "id": "david-luiz-2017-cult-heroes",
+      "name": "David Luiz",
+      "image": "./dl.jpg",
+      "rating": 94,
+      "position": "DFC",
+      "country": {
+        "name": "Brasil",
+        "flag": "🇧🇷"
+      },
+      "team": "Chelsea",
+      "cardType": "Cult Heroes",
+      "year": 2017,
+      "heightCm": 189,
+      "preferredFoot": "right",
+      "stats": {
+        "physical": { "speed": 97, "acceleration": 95, "stamina": 100, "strength": 100 },
+        "technical": { "control": 81, "passing": 90, "shooting": 71, "tackling": 100 }
+      }
+    },
+    {
+      "id": "vozinha-2026-cult-heroes",
+      "name": "Vozinha",
+      "image": "./vozinha.png",
+      "rating": 94,
+      "position": "GK",
+      "country": {
+        "name": "Cabo Verde",
+        "flag": "🇨🇻"
+      },
+      "team": "Colo-Colo",
+      "cardType": "Cult Heroes",
+      "year": 2026,
+      "heightCm": 189,
+      "preferredFoot": "right",
+      "stats": {
+        "physical": { "speed": 84, "acceleration": 77, "strength": 92 },
+        "technical": { "control": 94, "passing": 85, "tackling": 73 },
+        "goalkeeping": { "reflexes": 100, "handling": 90 }
+      }
+    },
+    {
+      "id": "lamine-yamal-2026-wc-champions",
+      "name": "Lamine Yamal",
+      "image": "./yamal.png",
+      "rating": 97,
+      "position": "ED",
+      "country": {
+        "name": "España",
+        "flag": "🇪🇸"
+      },
+      "team": "FC Barcelona",
+      "cardType": "WC Champions",
+      "year": 2026,
+      "heightCm": 179,
+      "preferredFoot": "left",
+      "stats": {
+        "physical": { "speed": 100, "acceleration": 100, "stamina": 100, "strength": 71 },
+        "technical": { "control": 100, "passing": 100, "shooting": 100, "tackling": 61 }
+      }
+    },
+    {
+      "id": "rodri-2026-wc-champions",
+      "name": "Rodri",
+      "image": "./rodri.png",
+      "rating": 97,
+      "position": "MCD",
+      "country": {
+        "name": "España",
+        "flag": "🇪🇸"
+      },
+      "team": "Manchester City",
+      "cardType": "WC Champions",
+      "year": 2026,
+      "heightCm": 190,
+      "preferredFoot": "right",
+      "stats": {
+        "physical": { "speed": 95, "acceleration": 89, "stamina": 100, "strength": 100 },
+        "technical": { "control": 100, "passing": 100, "shooting": 85, "tackling": 100 }
+      }
+    },
+    {
+      "id": "pau-cubarsi-2026-wc-champions",
+      "name": "Pau Cubarsí",
+      "image": "./cubarsi.png",
+      "rating": 95,
+      "position": "DFC",
+      "country": {
+        "name": "España",
+        "flag": "🇪🇸"
+      },
+      "team": "FC Barcelona",
+      "cardType": "WC Champions",
+      "year": 2026,
+      "heightCm": 183,
+      "preferredFoot": "right",
+      "stats": {
+        "physical": { "speed": 100, "acceleration": 100, "stamina": 100, "strength": 100 },
+        "technical": { "control": 86, "passing": 90, "shooting": 67, "tackling": 100 }
+      }
+    },
+    {
+      "id": "marc-cucurella-2026-wc-champions",
+      "name": "Marc Cucurella",
+      "image": "./cucurella.png",
+      "rating": 95,
+      "position": "LI",
+      "country": {
+        "name": "España",
+        "flag": "🇪🇸"
+      },
+      "team": "Chelsea FC",
+      "cardType": "WC Champions",
+      "year": 2026,
+      "heightCm": 174,
+      "preferredFoot": "left",
+      "stats": {
+        "physical": { "speed": 100, "acceleration": 100, "stamina": 100, "strength": 90 },
+        "technical": { "control": 90, "passing": 95, "shooting": 65, "tackling": 95 }
+      }
+    },
+    {
+      "id": "paul-pogba-2018-wc-champions",
+      "name": "Paul Pogba",
+      "image": "./pogba.png",
+      "rating": 97,
+      "position": "MC",
+      "country": {
+        "name": "Francia",
+        "flag": "🇫🇷"
+      },
+      "team": "Manchester United",
+      "cardType": "WC Champions",
+      "year": 2018,
+      "heightCm": 191,
+      "preferredFoot": "both",
+      "stats": {
+        "physical": { "speed": 95, "acceleration": 95, "stamina": 100, "strength": 99 },
+        "technical": { "control": 100, "passing": 100, "shooting": 95, "tackling": 85 }
+      }
+    },
+    {
+      "id": "emiliano-martinez-2022-wc-champions",
+      "name": "Emiliano Martínez",
+      "image": "./dibu.png",
+      "rating": 93,
+      "position": "GK",
+      "country": {
+        "name": "Argentina",
+        "flag": "🇦🇷"
+      },
+      "team": "Aston Villa",
+      "cardType": "WC Champions",
+      "year": 2022,
+      "heightCm": 195,
+      "preferredFoot": "right",
+      "stats": {
+        "physical": { "speed": 55, "acceleration": 47, "strength": 82 },
+        "technical": { "control": 57, "passing": 60, "tackling": 44 },
+        "goalkeeping": { "reflexes": 95, "handling": 90 }
+      }
+    },
+    {
+      "id": "enzo-fernandez-2022-wc-champions",
+      "name": "Enzo Fernández",
+      "image": "./enzo.png",
+      "rating": 95,
+      "position": "MC",
+      "country": {
+        "name": "Argentina",
+        "flag": "🇦🇷"
+      },
+      "team": "Benfica",
+      "cardType": "WC Champions",
+      "year": 2022,
+      "heightCm": 178,
+      "preferredFoot": "right",
+      "stats": {
+        "physical": { "speed": 90, "acceleration": 90, "stamina": 100, "strength": 80 },
+        "technical": { "control": 100, "passing": 100, "shooting": 90, "tackling": 77 }
+      }
+    },
+    {
+      "id": "benjamin-pavard-2018-wc-champions",
+      "name": "Benjamin Pavard",
+      "image": "./pavard.png",
+      "rating": 94,
+      "position": "LD",
+      "country": {
+        "name": "Francia",
+        "flag": "🇫🇷"
+      },
+      "team": "VfB Stuttgart",
+      "cardType": "WC Champions",
+      "year": 2018,
+      "heightCm": 186,
+      "preferredFoot": "right",
+      "stats": {
+        "physical": { "speed": 100, "acceleration": 100, "stamina": 100, "strength": 90 },
+        "technical": { "control": 83, "passing": 83, "shooting": 70, "tackling": 90 }
+      }
+    },
+    {
+      "id": "unknown-dls-1",
+      "name": "Unk?",
+      "image": "./download.png",
+      "rating": 4,
+      "position": "ALL",
+      "country": {
+        "name": "España",
+        "flag": "🇪🇸"
+      },
+      "team": "Unk?",
+      "cardType": "HIDDEN",
+      "year": 0,
+      "heightCm": 230,
+      "preferredFoot": "left",
+      "stats": {
+        "physical": { "speed": 0, "acceleration": 0, "stamina": 0, "strength": 0 },
+        "technical": { "control": 0, "passing": 0, "shooting": 0, "tackling": 0 },
+        "goalkeeping": { "reflexes": 0, "handling": 0 }
+      }
+    }
+  ]
+}

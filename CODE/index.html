@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#071c16">
+  <meta name="description" content="DLS 26 PC: cartas de jugadores y fútbol arcade local.">
+  <title>DLS 26 PC — Cartas y Fútbol Arcade</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <img src="logo.png" alt="Logo del proyecto" onerror="this.style.display='none'">
+      <div><h1>DLS 26 <span>PC</span></h1><p>Cartas de jugadores · Fútbol arcade local</p></div>
+    </div>
+    <div class="music-player">
+      <div class="music-info"><span id="trackTitle">🎵 Música opcional</span><small id="musicNote">Añade tus archivos MP3 a la carpeta para activarla.</small></div>
+      <div class="music-controls"><select id="trackSelect" aria-label="Seleccionar canción"><option value="">Sin música</option></select><button id="playPauseBtn" type="button" title="Reproducir o pausar">▶</button></div>
+      <audio id="audioTrack"></audio>
+    </div>
+    <div class="search"><input type="search" id="searchInput" placeholder="Buscar jugador, equipo, país, media…"><button id="searchButton" type="button">Buscar</button></div>
+  </header>
+
+  <main class="page">
+    <section class="game-section" id="juego">
+      <div class="game-heading">
+        <div><p class="eyebrow">MODO LOCAL · SIN ONLINE</p><h2>Partido rápido</h2><p class="muted">Fútbol arcade desde el navegador. Mejor con teclado y pantalla grande.</p></div>
+        <div class="match-clock" id="gameTimer">03:00</div>
+      </div>
+      <div class="game-controls-bar">
+        <label>Modo
+          <select id="gameModeSelect"><option value="1P">1 jugador vs CPU</option><option value="2P">2 jugadores local</option></select>
+        </label>
+        <label>Jugador 1
+          <select id="playerSelect"></select>
+        </label>
+        <label id="p2PlayerGroup" class="hidden">Jugador 2
+          <select id="player2Select"></select>
+        </label>
+        <label>Escudo P1
+          <select id="p1BadgeSelect"><option value="RMA.png">Real Madrid</option><option value="BAYERN.png">Bayern</option><option value="logo.png">DLS Club</option><option value="PSG.png">PSG</option></select>
+        </label>
+        <label>Escudo P2 / CPU
+          <select id="cpuBadgeSelect"><option value="BAYERN.png">Bayern</option><option value="RMA.png">Real Madrid</option><option value="PSG.png">PSG</option><option value="logo.png">DLS Club</option></select>
+        </label>
+        <label id="difficultyGroup">Dificultad CPU
+          <select id="difficultySelect"><option value="facil">Fácil</option><option value="media" selected>Media</option><option value="dificil">Difícil</option></select>
+        </label>
+        <label>Duración
+          <select id="durationSelect"><option value="180">3 minutos</option><option value="300">5 minutos</option><option value="600">10 minutos</option></select>
+        </label>
+        <button id="startGameBtn" class="primary-btn" type="button">▶ Iniciar partido</button>
+        <button id="pauseGameBtn" class="secondary-btn" type="button" disabled>Ⅱ Pausar</button>
+      </div>
+
+      <div class="scoreboard">
+        <div class="team-score"><img id="scoreBadge1" src="RMA.png" alt=""><span id="scoreName1">JUGADOR 1</span></div>
+        <div class="score"><span id="scoreP1">0</span><b>:</b><span id="scoreP2">0</span></div>
+        <div class="team-score right"><span id="scoreName2">CPU</span><img id="scoreBadge2" src="BAYERN.png" alt=""></div>
+      </div>
+      <div class="canvas-container">
+        <canvas id="gameCanvas" width="1000" height="560" aria-label="Campo de fútbol. Juega con el teclado."></canvas>
+        <div id="gameOverlay" class="game-overlay">
+          <div class="overlay-card"><div class="overlay-ball">⚽</div><h3>¿Listo para jugar?</h3><p>Elige tus jugadores y pulsa <strong>Iniciar partido</strong>.</p><p class="overlay-small">Los goles, saques y el cronómetro se gestionan dentro del partido.</p></div>
+        </div>
+      </div>
+      <div class="game-status" id="gameStatus" role="status">Selecciona el modo y comienza el partido.</div>
+      <details class="controls-help">
+        <summary>⌨️ Ver controles</summary>
+        <div class="controls-grid">
+          <div><h3>Jugador 1 · Azul</h3><p><kbd>↑</kbd><kbd>←</kbd><kbd>↓</kbd><kbd>→</kbd> Mover</p><p><kbd>ESPACIO</kbd> Tiro · <kbd>SHIFT</kbd> Pase</p><p><kbd>Q</kbd> Sprint · <kbd>X</kbd> Entrada · <kbd>Z</kbd> Tiro potente</p></div>
+          <div><h3>Jugador 2 · Rojo</h3><p><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> Mover</p><p><kbd>F</kbd> Tiro · <kbd>G</kbd> Pase</p><p><kbd>E</kbd> Sprint · <kbd>R</kbd> Entrada · <kbd>T</kbd> Tiro potente</p></div>
+        </div>
+        <p class="muted">Consejo: acércate al balón para controlarlo. Apunta moviéndote en la dirección del tiro. Los controles son para teclado; el modo de dos jugadores es local en el mismo PC.</p>
+      </details>
+    </section>
+
+    <section class="cards-section">
+      <div class="section-title"><div><p class="eyebrow">COLECCIÓN</p><h2>Cartas de jugadores</h2></div><span id="playerCounter">0 jugadores</span></div>
+      <div id="loading" class="hidden">Cargando jugadores…</div>
+      <div id="errorMessage" class="hidden" role="alert"></div>
+      <div class="content-grid">
+        <div><div id="playerContainer" class="player-grid"></div><div class="pagination"><button id="previousBtn" disabled>← Anterior</button><span id="pageLabel">Página 1</span><button id="nextBtn" disabled>Siguiente →</button></div></div>
+        <aside class="player-detail" id="detailContainer"><h2>Selecciona un jugador</h2><p>Haz clic en “Ver información” para examinar sus atributos.</p></aside>
+      </div>
+    </section>
+  </main>
+  <footer><p>DLS 26 PC · Proyecto de fans no oficial</p><small>HTML · CSS · JavaScript · Canvas · Preparado para GitHub Pages</small></footer>
+  <script src="script.js"></script>
+</body>
+</html>
